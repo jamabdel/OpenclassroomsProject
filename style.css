@@ -37,14 +37,13 @@ li , a {
 .nav_link li a:hover {
   color: #0065FC;
  
-}
-.register {
-  display: flex;
-  align-items: center;
+  
 }
 .register a {
   font-weight: bold;
   color: #0065fc;
+  display: flex;
+  align-items: center;
 }
   
  
