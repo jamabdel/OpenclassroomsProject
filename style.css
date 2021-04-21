@@ -18,7 +18,7 @@ li , a {
   }
  
   
-  header {
+header {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -52,5 +52,45 @@ li , a {
   display: flex;
   align-items: center;
 }
+ /*Hébergements */
+ .Hébergements {
+  background-color: #F2F2F2;
+  padding: 70px 0;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.box{
+flex: 1 1 300px;
+border:1px solid;
+position: relative;
+
+
+}
+
+
+
+ /*Hébergements */
+ /*footer */
+
+.footer {
   
- 
+  background-color: #F2F2F2;
+  padding: 70px 0;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+
+
+}
+.footer-heading a:hover {
+  color: #0065FC;
+
+}
+ /*footer */
