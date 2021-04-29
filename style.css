@@ -94,7 +94,7 @@ input{
    display: flex;
    flex-wrap: wrap;
    }
- .container1{   /*le contineur qui contitn les photo des hotel "hebergement a marsail et les plus populaire  */
+ .container1{   /*le conteneur qui contient les photo des hotel "hebergement a marseille et les plus populaire  */
   width: 66%;  
   background-color: #8f1010;
   padding: 70px 0;
