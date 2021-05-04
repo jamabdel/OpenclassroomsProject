@@ -402,7 +402,7 @@ color: #0065FC;
 }
  /*footer */
 
- /*media*/
+ /*media queries iphone*/
  @media screen and (max-width:500px) {
   .container1, .hebergements_populaires{
     width:100%;
@@ -415,9 +415,43 @@ color: #0065FC;
     
     width:100%;
   }
+  .bouton-filtre{
+    padding:20px;
+    margin: 20px;
+  }
+  .barreFiltre{
+    
+  }
+  .searchbox{
+    
+    flex-direction: column;
+  }
+  .footer-heading{
+    padding:10px;
+    margin: 10px;
+  }
+  .footer{
+    flex-direction: column;
   
+    
 
-
+  }
 
 } 
+/*media queries ipad*/
+@media screen and (max-width:700px){
 
+  .lodging {
+  flex-direction: column;
+
+}
+
+.hebergements_populaires{
+
+  width:100%;
+
+}
+.Hebergements .box{
+  
+    width:100%;
+}
