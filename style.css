@@ -74,8 +74,8 @@ header {
   }
   
   .iconemap {
-    font-size: 30px;
     background-color: #f2f2f2;
+    font-size: 30px;
     border-radius: 1rem 0 0 1rem;
     padding: 10px 10px;
     text-align: center;
@@ -83,28 +83,28 @@ header {
   }
   
   input {
+    font-size: 15px;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
+    border-top: #f2f2f2 1px solid;
+    border-bottom: #f2f2f2 1px solid;
+    padding: 20px;
     border-right: none;
     border-left: none;
-    /*border-top: #f2f2f2 1px solid;
-    border-bottom: #f2f2f2 1px solid;*/
-    padding: 20px;
-    font-size: 15px;
   }
   
   .boutonbleu {
-    border-radius: 0px 20px 20px 0;
-    padding: 15px;
     background-color: #0065fc;
     color: white;
+    border-radius: 0px 20px 20px 0;
+    padding: 15px;
     font-weight: bold;
     height: 70px;
   }
   .bleu a {
-    font-weight: bold;
     color: #0065fc;
+    font-weight: bold;
     display: flex;
     align-items: center;
     }
@@ -140,16 +140,24 @@ header {
 }
 
 .bouton-filtre a {
-  
+  font-size: 25px;
+  font-weight:bold ;
   padding-right: 1em;
   padding-left: 1em;
+
 }
 
 .filter-container2 i {
-  background-color: #DEEBFF;
-  padding: 0.8em;
-  border-radius: 30px;
-  color: #0065fc;
+background-color: #DEEBFF;
+color: #0065FC;
+border-radius: 100%;
+height: 3rem;
+width: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+ 
 }
 
   
@@ -161,17 +169,22 @@ header {
 
 .infoicone i {
   background-color: #DEEBFF;
+  color: #0065fc;
   padding: 0.8em;
   border-radius: 30px;
-  color: #0065fc;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
 }
 
 
 
    /*filtre*/
-  
- /* Rechercher*/
- /*Hébergements */
+   /*Hébergements */
  .container{ /*conteneur parent*/
    width:100%;
    display: flex;
