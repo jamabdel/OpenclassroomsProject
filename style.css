@@ -311,7 +311,7 @@ color: #0065FC;
  /*activites */
 
 .grid-container {
-  height: 680px;
+  height: 450px;
   border: 10px solid;
   display: grid;
   /*grid-template-rows: auto 12em 2em 2em 2em 12em;*/
@@ -416,9 +416,11 @@ img.grid-img{
   grid-row: 3/7;
   grid-column: 4/5;
 }
-
+.grid-item .titre{
+    height: 50px;
+}
 .grid-img{
-    height: 100%;
+    height: calc(100% - 50px);
 }
 .grid-img img{
     height: 100%;
