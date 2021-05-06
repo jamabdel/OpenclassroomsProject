@@ -12,7 +12,8 @@
  }
 
 /*header*/
-li , a {
+.menu li , a {
+  font-weight: bold;
     font-weight: 200;
     font-size: 16px;
     text-decoration:none;
@@ -58,20 +59,12 @@ header {
   /* Rechercher*/
 
 .searchbox{
-    display: inline-flex;
+    display: flex;
     margin-top: 15px;
-    align-items: center;
+    align-items: ;
   }
   
-.button {
-    background-color: #0065fc;
-    border: none;
-    padding: 15px 15px;
-    border-radius: 0px 10px 10px 0px;
-    cursor: pointer;
-    margin: 10px;;
-    font-weight: bold;
-  }
+
   
   .iconemap {
     background-color: #f2f2f2;
@@ -83,7 +76,7 @@ header {
   }
   
   input {
-    font-size: 15px;
+    font-size: 90%;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
@@ -95,20 +88,27 @@ header {
   }
   
   .boutonbleu {
-    background-color: #0065fc;
+    padding: 13px;
+    font-size: 20px;
+    background-color: #0065FC;
+    cursor: pointer;
     color: white;
-    border-radius: 0px 20px 20px 0;
-    padding: 15px;
-    font-weight: bold;
-    height: 70px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    width: 10em;
+  
+}
   }
   .bleu a {
-    color: #0065fc;
+    color: white;
     font-weight: bold;
     display: flex;
     align-items: center;
     }
-
+    .bleu .fa-search{
+      display: none;
+    }
 
   /*filtre*/
 
@@ -192,13 +192,12 @@ justify-content: center;
    }
  .container1{   /*le conteneur qui contient les photo des hotel "hebergement a marseille et les plus populaire  */
   width: 66%;  
-  background-color: #8f1010;
+  background-color:  #F2F2F2;
   padding: 0px 0px 0px 0px;
   border-radius: 15px;
 }
 .lodging{
 justify-content: space-between;
-background-color: #eb0f9a;
 display: flex;
 flex-wrap: wrap;
 border-radius: 15px;
@@ -206,10 +205,10 @@ border-radius: 15px;
 
 h1{
 margin: 0px;
-font-size: 1em;
+font-size: 2em;
 }
 .Hebergements {
-  background-color: #151b74;
+  background-color: #F2F2F2;
   padding: 0px 10px 0px 10px ;
   display: flex;
   justify-content:space-evenly;
@@ -221,7 +220,7 @@ font-size: 1em;
 }
 .hebergements_populaires {
   width: 33%;
-  background-color: #37bb0f;
+  background-color: #F2F2F2;
   padding: 1em;
   display: flex;
   flex-direction: column;
@@ -230,14 +229,16 @@ font-size: 1em;
 
 
 .box{
-  background-color: rgb(137, 187, 22);
-  width: 27%;
+  background-color:white;
+  width: 29%;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
   border-radius: 15px;
-  padding: 5px 5px 10px 5px;
-  margin: 5px 5px 50px 5px;
+  padding: 0px 5px 3.5% 5px;
+  margin: 5px 5px 3.5% 5px;
 }
-
+.box i{
+  margin-top: 1%;
+}
 
 .box .image img{
   width: 100%;
@@ -245,17 +246,18 @@ font-size: 1em;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  padding: 1px;
+  padding: 5px 1px;
+  
   
 }
 .box-pop{
+  background-color: white;
   display: flex;
-  background-color: rgb(187, 157, 22);
-  width:80%;
+  width: 92%;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
   border-radius: 15px;
-  padding: 3px;
-  margin: 1em;
+  padding: 3px 4px % 1px;
+  margin: auto;
   align-items: center;
   justify-content: flex-start;
 
@@ -265,6 +267,7 @@ font-size: 1em;
 }
 .box-pop .info{
   flex:1;
+  margin-left: 5%;
 }
 .box-pop img{
   width: 100%;
@@ -272,7 +275,7 @@ font-size: 1em;
   object-fit: cover;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  padding: 1px;
+  padding: 5px;
 }
 
 .stars i.fa-star{
@@ -283,28 +286,40 @@ color: #0065FC;
   color: #d9d9d9;
 }
 .titre-box-pop{
+  padding: 1%;
+  margin: 1%;
   display: flex;
   justify-content: space-between;
 }
 
+
 .titre-box h2{
+  padding: 20px;
+  margin-left: 2.5%;
+  margin-top: 1%;
+}
+
+
+.afficher-plus{
+  font-weight: bold;
   padding: 20px;
   margin-left: 50px;
 }
-
-.afficher-plus{
-  padding: 20px;
-  margin-left: 50px;
+.box-pop i{
+  margin-top: 40%;
+}
+.box-pop p{
+  margin-top: 5%;
 }
 
  /*Hébergements */
  /*activites */
 
 .grid-container {
-  height: 1100px;
-  border: 10px solid #14a76c;
+  height: 900px;
+  border: 10px solid;
   display: grid;
-  grid-template-rows: 12rem 2rem 2rem 2rem 12rem;
+  grid-template-rows: auto 12em 2em 2em 2em 12em;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   
@@ -318,15 +333,46 @@ color: #0065FC;
   padding: 1px;
  
 }
+.grid-img1{
+  margin: 0 50%  0  -50%;
+  max-height: 100%;
+  
+}
+.grid-img2{
+  margin: 0% 0% -59% 0;
+  max-height: 100%;
+ 
+}
+.grid-img3{
+  margin: 0% 0% 0% -50%;
+  max-height: 100%;
+}
+.grid-img4{
+  margin: 0% 0% 0% -50%;
+  max-height: 100%;
+}
+.grid-img5{
+  margin: 0% 0% 0% -50%;
+  max-height: 100%;
+}
+.grid-img6{
+  margin: 0% 0% 0% -50%;
+  max-height: 100%;
+}
+
 .grid-item {
   background-color: #ccc;
   border: 4px solid #ff652f;
   padding: 2px;
   border-radius: 1.5rem;
+  height: 100%;
+  overflow: hidden;
 
 }
 
-.titre {
+.titre h2{
+  width: auto;
+  position: absolute;
   border-bottom: 20px;
   background-color: white;
   padding: 10px;
@@ -335,45 +381,30 @@ color: #0065FC;
 }
 
 .item-1 {
-  grid-column-start: 1 ;
-  grid-column-end: 2 ;
-  grid-row-start: 1 ;
-  grid-row-end: 5 ;
-  
-}
+  grid-row: 1/6;
+  grid-column: 1/2;
+ }
 .item-2 {
-  grid-column-start: 2 ;
-  grid-column-end: 3;
-  grid-row-start: 1 ;
-  grid-row-end: 2;
-  
+  grid-row: 1/2;
+  grid-column: 2/3;
 }
 .item-3 {
-  grid-column-start: 2 ;
-  grid-column-end: 3;
-  grid-row-start: 2 ;
-  grid-row-end: 5;
-}
+  grid-row: 2/6;
+  grid-column: 2/3;
+ }
 .item-4 {
-  grid-column-start: 3 ;
-  grid-column-end: 4 ;
-  grid-row-start: 1 ;
-  grid-row-end: 3 ;
-  
+  grid-row: 1/6;
+  grid-column: 3/4;
 }
 
 .item-5 {
-  grid-column-start: 4 ;
-  grid-column-end: 5 ;
-  grid-row-start: 1;
-  grid-row-end: 2 ;
-  
-}
+  grid-row: 1/2;
+  grid-column: 4/5;
+  }
+
 .item-6{
-  grid-column-start: 4 ;
-  grid-column-end: 5 ;
-  grid-row-start: 2;
-  grid-row-end: 5 ;
+  grid-row: 2/6;
+  grid-column: 4/5;
 }
 
 
@@ -395,7 +426,16 @@ color: #0065FC;
   display: flex;
   flex-direction: column;
   flex-basis: 33%;
+
 }
+.footer-heading a{
+ padding: 5px;
+  
+}
+.footer-heading h2{
+  padding: 10px;
+   
+ }
 
 .footer-heading a:hover {
   color: #0065FC;
