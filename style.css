@@ -417,6 +417,15 @@ img.grid-img{
   grid-column: 4/5;
 }
 
+.grid-img{
+    height: 100%;
+}
+.grid-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 @media (max-width:600px) {
     .item-1 {
         grid-row: 1/2;
