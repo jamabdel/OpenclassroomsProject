@@ -128,7 +128,7 @@ input {
   align-items: center; 
 }
 
-.filter-container2 {
+.filter-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center; 
@@ -144,12 +144,13 @@ input {
     margin-right: 2em;
     border: 2px solid #f2f2f2;
     border-radius: 30px; 
-    height: 2.5em;
+    height: 3em;
 }
 
-.filter-container2 :hover{
+.filter-container :hover{
   color:blue;
   background-color:#DEEBFF;
+  border-radius: 50px;
 }
 
 .bouton-filtre a {
@@ -159,7 +160,7 @@ input {
   padding-left: 1em;
 }
 
-.filter-container2 i {
+.filter-container i {
   background-color: #DEEBFF;
   color: #0065FC;
   border-radius: 100%;
