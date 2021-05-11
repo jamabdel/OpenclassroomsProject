@@ -14,7 +14,7 @@
 }
 
 /*****************************************header*/
-.menu li , a {
+.nav_link li , a {
   font-weight: bold;
   font-weight: 200;
   font-size: 16px;
@@ -102,6 +102,7 @@ input {
   border-right: none;
   border-left: none;
   padding: 25px 25px 25px 25px ;
+  width: 15em;
 }
 
   .boutonbleu {
@@ -113,7 +114,7 @@ input {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border: none;
-  width: 10em;
+  /*width: 10%;*/
   height: 100%;
   font-weight: bolder;
 }
@@ -503,13 +504,23 @@ input {
   /*media queries iphone*/
   @media screen and (max-width:520px) {
 
-
-  .container1, .hebergements_populaires{
-      width:100%;
-    }
-  .hebergements_populaires{
-      order:-1;
+  .searchTitle h1{
+  font-size: 1.25rem;
   }
+  
+
+  .nav_link li a:hover{
+  border-top: hidden;
+  
+  }
+  .container1, .hebergements_populaires{
+  width:100%;
+  }
+
+  .hebergements_populaires{
+  order:-1;
+  }
+  
   .Hebergements .box{
   flex-direction: column;   
   width:100%;
@@ -525,11 +536,17 @@ input {
   }
   .boutonbleu .fa-search{ 
   display: block;
-  width: 90%;
   height: 25px;
-  
-
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-left: -20px;
+  width: 2.5em;
+  justify-content: center;
   }
+  .input{
+ 
+  }
+
   .searchbox{
      
      flex-direction: column;
