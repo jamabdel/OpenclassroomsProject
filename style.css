@@ -51,6 +51,7 @@ header {
   padding-top: 29px;
   color: #0065FC;
   border-top: 1px solid #0065FC;
+  width: ;
 }
 
 
@@ -515,7 +516,23 @@ input {
   border-bottom: 1px solid #0065FC;
   padding: 20px;
 }
+.nav_link{
+  align-items: baseline;
+
+  flex-wrap: wrap-reverse;
+}
+
+
 /*****************************************header*/
+.filter-container{
+  flex-direction: column;
+}
+.titreh2{
+  padding-right: 100%;
+
+}
+
+/***********************************filtre*/
   .container1, .hebergements_populaires{
   width:100%;
   }
