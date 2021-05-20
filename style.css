@@ -228,7 +228,7 @@ p.infoicone{
 }
 
 .container1{   
-  width: 66%;  
+  width: 65.5%;  
   background-color:  #F2F2F2;
   padding: 0px 0px 0px 0px;
   border-radius: 15px;
@@ -254,7 +254,7 @@ p.infoicone{
 }
 
 .hebergements_populaires {
-  width: 33%;
+  width: 32.5%;
   background-color: #F2F2F2;
   padding: 1em;
   display: flex;
