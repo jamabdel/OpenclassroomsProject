@@ -21,7 +21,9 @@ header {
   justify-content: space-between;
   align-items:center;
   padding: 40px 0;
+  flex-basis: 100%;
 }
+
 .conten{
   display: flex;
 }
@@ -502,7 +504,7 @@ p.box-pop {
   /**************************************footer */
 
   /*************************media queries iphone*/
-  @media screen and (max-width:650px) {
+  @media screen and (max-width:450px) {
 
 /*****************************************header*/
   .wrapper {
